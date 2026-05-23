@@ -1,0 +1,562 @@
+[
+  {
+    "id": "midterm-1",
+    "deck": "midterm",
+    "number": 1,
+    "term": "Positivism (A. Comte)",
+    "definition": "Positivism is an idea by Auguste Comte. It says that we can only know something if we can see it, test it, or measure it. Comte said that society should be studied like science — using facts and evidence, not opinions.",
+    "example": "A positivist sociologist studies crime by looking at numbers and statistics, not personal feelings about what is right or wrong."
+  },
+  {
+    "id": "midterm-2",
+    "deck": "midterm",
+    "number": 2,
+    "term": "Social Statics and Social Dynamics (A. Comte)",
+    "definition": "Social Statics is the study of how society stays stable and holds together at one point in time. Social Dynamics is the study of how society changes over time.",
+    "example": "Social statics looks at why families and schools keep society organized today. Social dynamics looks at how society changed because of industrialization."
+  },
+  {
+    "id": "midterm-3",
+    "deck": "midterm",
+    "number": 3,
+    "term": "Sociological Imagination (C. Wright Mills)",
+    "definition": "This idea by C. Wright Mills means the ability to connect your personal life problems to bigger problems in society. It helps people see that their private difficulties are often caused by social forces, not just personal failure.",
+    "example": "If you lose your job, it might not be your fault — it could be because of an economic crisis. Sociological imagination helps you see this."
+  },
+  {
+    "id": "midterm-4",
+    "deck": "midterm",
+    "number": 4,
+    "term": "Law of Three Stages (A. Comte)",
+    "definition": "Comte said that all human societies and knowledge go through three stages of development, one after another: the Theological stage, the Metaphysical stage, and the Positive stage.",
+    "example": "Long ago, people explained sickness as God's punishment. Later, they said it came from bad energy. Today, science explains it with germs and medicine."
+  },
+  {
+    "id": "midterm-5",
+    "deck": "midterm",
+    "number": 5,
+    "term": "Theological, Metaphysical, and Positive Stages (A. Comte)",
+    "definition": "Theological Stage: people believe gods or spirits cause everything. Metaphysical Stage: people explain things with abstract ideas like 'nature' or 'forces.' Positive Stage: people use science, experiments, and facts to explain the world.",
+    "example": "A flood was once seen as God's anger (theological), then as nature's power (metaphysical), now as a result of heavy rain and geography (positive)."
+  },
+  {
+    "id": "midterm-6",
+    "deck": "midterm",
+    "number": 6,
+    "term": "Society as a Social Organism (H. Spencer)",
+    "definition": "Herbert Spencer compared society to a living body. Just like a body has different parts (heart, lungs, brain) that work together, society has different parts (family, government, economy) that work together to keep everything functioning.",
+    "example": "If the economy stops working, the whole society has problems — just like if your heart stops, your whole body stops."
+  },
+  {
+    "id": "midterm-7",
+    "deck": "midterm",
+    "number": 7,
+    "term": "Survival of the Fittest — Social Meaning (H. Spencer)",
+    "definition": "Spencer took Darwin's idea from biology and applied it to society. He said that the strongest, most capable people and groups will succeed, and weaker ones will fail. This idea is called Social Darwinism. Today, many people criticize this idea because it was used to justify inequality.",
+    "example": "Spencer thought rich people were rich because they were naturally better. Critics say this ignores unfair social conditions."
+  },
+  {
+    "id": "midterm-8",
+    "deck": "midterm",
+    "number": 8,
+    "term": "Social Solidarity (E. Durkheim)",
+    "definition": "Social solidarity means the feeling of unity and connection that holds people in a society together. It comes from shared values, beliefs, and rules that people follow together.",
+    "example": "Celebrating national holidays, speaking the same language, and following the same laws — these things create social solidarity."
+  },
+  {
+    "id": "midterm-9",
+    "deck": "midterm",
+    "number": 9,
+    "term": "Mechanical and Organic Solidarity (E. Durkheim)",
+    "definition": "Mechanical solidarity exists in traditional, simple societies where people are very similar — they do the same work and share the same values. Organic solidarity exists in modern, complex societies where people do different jobs and depend on each other.",
+    "example": "A small village where everyone farms = mechanical solidarity. A big city where doctors, teachers, and drivers all need each other = organic solidarity."
+  },
+  {
+    "id": "midterm-10",
+    "deck": "midterm",
+    "number": 10,
+    "term": "Division of Labour (E. Durkheim)",
+    "definition": "Division of labour means that different people do different specialized jobs in society. In modern societies, people do not do everything themselves — one person bakes bread, another builds houses, another teaches children.",
+    "example": "In a factory, one worker puts in screws, another paints, another checks quality. Each person does only one job."
+  },
+  {
+    "id": "midterm-11",
+    "deck": "midterm",
+    "number": 11,
+    "term": "Anomie (E. Durkheim)",
+    "definition": "Anomie means a situation where the rules of society are unclear or have broken down. People feel lost, disconnected, and do not know how to behave. It often happens during times of big social change.",
+    "example": "After a country goes through a revolution or economic collapse, people may not know what rules to follow — this is anomie."
+  },
+  {
+    "id": "midterm-12",
+    "deck": "midterm",
+    "number": 12,
+    "term": "Class Conflict (K. Marx)",
+    "definition": "Karl Marx said that society is divided into classes with different economic interests. The rich class (bourgeoisie) owns factories and controls resources. The working class (proletariat) must work for them. These two classes are always in conflict because their interests are opposite.",
+    "example": "Workers want higher wages. Factory owners want lower wages to make more profit. This is class conflict."
+  },
+  {
+    "id": "midterm-13",
+    "deck": "midterm",
+    "number": 13,
+    "term": "Base and Superstructure (K. Marx)",
+    "definition": "The Base is the economic foundation of society — how things are produced and who owns the means of production. The Superstructure is everything built on top of it — laws, government, religion, education, culture. Marx said the economic base controls the superstructure.",
+    "example": "In a capitalist economy (base), laws protect private property and schools teach that working hard makes you successful (superstructure)."
+  },
+  {
+    "id": "midterm-14",
+    "deck": "midterm",
+    "number": 14,
+    "term": "Class Consciousness (K. Marx)",
+    "definition": "Class consciousness is when workers understand that they share the same problems and interests as a group. Marx believed workers need to become aware of their shared exploitation before they can unite and fight for change.",
+    "example": "Workers who form a union and say 'We all have the same problem — low wages and bad conditions' are showing class consciousness."
+  },
+  {
+    "id": "midterm-15",
+    "deck": "midterm",
+    "number": 15,
+    "term": "Ideal Types (M. Weber)",
+    "definition": "An ideal type is a mental tool created by Max Weber to help understand social phenomena. It is a perfect, pure model of something that does not exist exactly in reality but helps us compare and analyze real things.",
+    "example": "Weber described the ideal type of bureaucracy — strict rules, clear hierarchy, no personal relationships. No real organization is perfect, but we can compare them to this model."
+  },
+  {
+    "id": "midterm-16",
+    "deck": "midterm",
+    "number": 16,
+    "term": "Iron Cage (M. Weber)",
+    "definition": "The iron cage is Weber's metaphor for modern life. He said that modern society, with its rules, bureaucracy, and focus on efficiency, traps people. We lose our freedom, creativity, and meaning — we become like parts of a machine.",
+    "example": "Working in a large company where every action is controlled by rules, forms, and managers, and you cannot think for yourself, feels like an iron cage."
+  },
+  {
+    "id": "midterm-17",
+    "deck": "midterm",
+    "number": 17,
+    "term": "Verstehende Sociology / Understanding Sociology (M. Weber)",
+    "definition": "Weber said that sociology must understand the meaning behind people's actions, not just observe what they do. We need to understand why people act — what they think and feel. The German word 'Verstehen' means 'to understand.'",
+    "example": "To study religion, don't just count how many people go to church — try to understand what religion means to them and how it changes their daily choices."
+  },
+  {
+    "id": "midterm-18",
+    "deck": "midterm",
+    "number": 18,
+    "term": "Structural Functionalism",
+    "definition": "Structural functionalism is a sociological theory that sees society as a system where all parts work together to keep society stable and balanced. Each part — family, school, government, religion — has an important function.",
+    "example": "Schools teach children skills and values. This helps society continue functioning. Without education, society would struggle."
+  },
+  {
+    "id": "midterm-19",
+    "deck": "midterm",
+    "number": 19,
+    "term": "Conflict Theory",
+    "definition": "Conflict theory says that society is not peaceful and balanced — it is full of competition and inequality. Different groups fight over money, power, and resources. The powerful groups control the rules and keep their advantages.",
+    "example": "Conflict theorists say that expensive universities help rich families stay at the top, because only they can afford the best education."
+  },
+  {
+    "id": "midterm-20",
+    "deck": "midterm",
+    "number": 20,
+    "term": "Society (Structural Functionalism)",
+    "definition": "In structural functionalism, society is like a living organism — stable, balanced, and made of parts that work together. Problems in society are temporary and the system fixes itself to return to balance.",
+    "example": "If crime increases, police and courts work harder to restore order — the system corrects itself."
+  },
+  {
+    "id": "midterm-21",
+    "deck": "midterm",
+    "number": 21,
+    "term": "Society (Conflict Theory)",
+    "definition": "In conflict theory, society is not balanced. It is a place where powerful groups control weaker groups. Social order does not come from agreement — it comes from the powerful forcing their rules on others.",
+    "example": "Laws about property protect the rich more than the poor — not because everyone agreed, but because powerful people made the laws."
+  },
+  {
+    "id": "midterm-22",
+    "deck": "midterm",
+    "number": 22,
+    "term": "Society (Symbolic Interactionism)",
+    "definition": "In symbolic interactionism, society is created through everyday conversations, gestures, and interactions between people. Society is not a fixed structure — it is constantly being created and changed by how people interact and what meanings they give to things.",
+    "example": "A handshake, a smile, or the word 'friend' have meanings that people create together through interaction."
+  },
+  {
+    "id": "midterm-23",
+    "deck": "midterm",
+    "number": 23,
+    "term": "Function and Dysfunction (R. Merton)",
+    "definition": "A function is something that helps society work well and stay stable. A dysfunction is something that causes problems or makes society unstable. Robert Merton said both can happen at the same time in society.",
+    "example": "The education system functions to prepare people for work, but it can also be dysfunctional if it creates stress, inequality, and mental health problems."
+  },
+  {
+    "id": "midterm-24",
+    "deck": "midterm",
+    "number": 24,
+    "term": "Manifest and Latent Functions (R. Merton)",
+    "definition": "A manifest function is the obvious, intended purpose of something. A latent function is a hidden or unintended benefit that people do not plan or expect.",
+    "example": "The manifest function of school is to teach knowledge. A latent function is that students make friends and social connections that help them later in life."
+  },
+  {
+    "id": "midterm-25",
+    "deck": "midterm",
+    "number": 25,
+    "term": "Social Institutions",
+    "definition": "Social institutions are organized systems in society that meet important human needs. The main social institutions are: family, education, religion, government, economy, healthcare, and media. They have rules, roles, and structures.",
+    "example": "The family institution takes care of children, passes on cultural values, and provides emotional support. Without it, society would not continue."
+  },
+  {
+    "id": "midterm-26",
+    "deck": "midterm",
+    "number": 26,
+    "term": "Sociological Research",
+    "definition": "Sociological research is the process of studying society in a systematic and scientific way. Researchers ask questions, collect data, analyze it, and find answers about how people behave and how society works.",
+    "example": "A sociologist asks: 'Why do students from poor families drop out of school more often?' Then they collect data and look for answers."
+  },
+  {
+    "id": "midterm-27",
+    "deck": "midterm",
+    "number": 27,
+    "term": "Research Design",
+    "definition": "A research design is the plan for a study. It explains what question you are studying, how you will collect information, who you will ask, and how you will analyze the data.",
+    "example": "A research design might say: 'I will survey 200 university students with a questionnaire about study habits and compare their grades.'"
+  },
+  {
+    "id": "midterm-28",
+    "deck": "midterm",
+    "number": 28,
+    "term": "Literature Review",
+    "definition": "A literature review is when a researcher reads and summarizes all the important studies and books already written about their topic. It helps them understand what is already known and what is still unknown.",
+    "example": "Before studying stress in university students, a researcher reads 20 previous studies on the topic to see what other researchers already found."
+  },
+  {
+    "id": "midterm-29",
+    "deck": "midterm",
+    "number": 29,
+    "term": "Sample in Research",
+    "definition": "A sample is a smaller group of people selected from a larger population to take part in a study. Because you cannot study everyone, you choose a sample and use its results to make conclusions about the bigger group.",
+    "example": "To find out what 2 million city residents think, a researcher surveys a sample of 1,000 people."
+  },
+  {
+    "id": "midterm-30",
+    "deck": "midterm",
+    "number": 30,
+    "term": "Representativeness",
+    "definition": "Representativeness means that the sample in a study is similar to the larger population — it includes the right mix of different people (different ages, genders, incomes, etc.). A representative sample gives more reliable results.",
+    "example": "A survey about students is representative only if it includes students from different years, universities, and backgrounds — not just first-year students from one city."
+  },
+  {
+    "id": "midterm-31",
+    "deck": "midterm",
+    "number": 31,
+    "term": "Reliability",
+    "definition": "Reliability means that a research method gives the same results every time you use it under the same conditions. It is about consistency — if you repeat the study, do you get the same answer?",
+    "example": "If you ask the same survey question to the same people twice and get very different answers, the question is not reliable."
+  },
+  {
+    "id": "midterm-32",
+    "deck": "midterm",
+    "number": 32,
+    "term": "Validity",
+    "definition": "Validity means that a research method actually measures what it is supposed to measure. Is the research tool measuring the right thing?",
+    "example": "If you want to measure happiness but only ask about money, your study is not valid — money does not fully measure happiness."
+  },
+  {
+    "id": "midterm-33",
+    "deck": "midterm",
+    "number": 33,
+    "term": "Field Research",
+    "definition": "Field research means going to a real place to study people in their natural environment — not in a laboratory. The researcher observes and interacts with people in their everyday lives.",
+    "example": "A researcher goes to live in a poor neighborhood for three months and takes notes about daily life, relationships, and problems."
+  },
+  {
+    "id": "midterm-34",
+    "deck": "midterm",
+    "number": 34,
+    "term": "Pilot Study",
+    "definition": "A pilot study is a small test of your research before you do the full study. You test your questions and methods with a small group to find problems and fix them.",
+    "example": "Before giving a survey to 500 students, you first test it with 15 students to check that all questions are clear and easy to understand."
+  },
+  {
+    "id": "midterm-35",
+    "deck": "midterm",
+    "number": 35,
+    "term": "Hypothesis",
+    "definition": "A hypothesis is a prediction or statement that you test with research. It says what you think the relationship between two things will be. After research, you say if the hypothesis is correct or not.",
+    "example": "Hypothesis: 'Students who exercise regularly get better grades than students who do not exercise.'"
+  },
+  {
+    "id": "midterm-36",
+    "deck": "midterm",
+    "number": 36,
+    "term": "Independent and Dependent Variables",
+    "definition": "The independent variable is the thing you change or test — the cause. The dependent variable is what you measure — the result or effect. The dependent variable depends on the independent variable.",
+    "example": "You study if sleep time (independent variable) affects exam scores (dependent variable). You change the sleep time and measure the scores."
+  },
+  {
+    "id": "midterm-37",
+    "deck": "midterm",
+    "number": 37,
+    "term": "Surveys, Types",
+    "definition": "A survey is a list of questions given to many people to collect data. Types include: online surveys, paper questionnaires, phone surveys, and face-to-face surveys. Questions can be closed (with answer options) or open (people write their own answers).",
+    "example": "An online survey where 1,000 people choose answers from 1 to 5 about their job satisfaction is a closed-question survey."
+  },
+  {
+    "id": "midterm-38",
+    "deck": "midterm",
+    "number": 38,
+    "term": "Interview, Types",
+    "definition": "An interview is when a researcher asks questions directly to a person and listens to their answers. Types: Structured (same fixed questions for everyone), Semi-structured (main questions but with flexible follow-up), Unstructured (open conversation on a topic).",
+    "example": "A structured interview always asks 'How many hours do you work?' A semi-structured interview also asks follow-up questions like 'How does that make you feel?'"
+  },
+  {
+    "id": "midterm-39",
+    "deck": "midterm",
+    "number": 39,
+    "term": "Primary and Secondary Data",
+    "definition": "Primary data is information you collect yourself for your own study. Secondary data is information that someone else already collected, which you use for your own research.",
+    "example": "You do your own survey = primary data. You use government statistics that already exist = secondary data."
+  },
+  {
+    "id": "midterm-40",
+    "deck": "midterm",
+    "number": 40,
+    "term": "Qualitative and Quantitative Research",
+    "definition": "Quantitative research uses numbers and statistics to answer questions. Qualitative research uses words, stories, and descriptions to understand deeper meanings and experiences.",
+    "example": "Quantitative: '65% of students feel stressed.' Qualitative: 'Students describe their stress as a constant feeling of not being good enough.'"
+  },
+  {
+    "id": "midterm-41",
+    "deck": "midterm",
+    "number": 41,
+    "term": "Respondents / Informant",
+    "definition": "A respondent is a person who answers a survey or questionnaire. An informant is a person who gives detailed information in a qualitative study, often because they have special knowledge or experience.",
+    "example": "200 people who fill out an online questionnaire are respondents. A village elder who explains local traditions in an interview is an informant."
+  },
+  {
+    "id": "midterm-42",
+    "deck": "midterm",
+    "number": 42,
+    "term": "Participant Observation",
+    "definition": "Participant observation is when a researcher joins a group and participates in their activities while also watching and taking notes. The researcher becomes part of the group to understand it from the inside.",
+    "example": "A researcher joins a sports team for six months, trains with them, and takes notes about group dynamics and team culture."
+  },
+  {
+    "id": "midterm-43",
+    "deck": "midterm",
+    "number": 43,
+    "term": "Experiment",
+    "definition": "An experiment is a controlled study where the researcher changes one thing and measures the effect. It is the best method for finding cause and effect. One group gets the treatment (experimental group), another group does not (control group).",
+    "example": "One class of students uses a new learning app (experimental group). Another class does not (control group). After one month, their test scores are compared."
+  },
+  {
+    "id": "midterm-44",
+    "deck": "midterm",
+    "number": 44,
+    "term": "Content Analysis",
+    "definition": "Content analysis is when researchers study written texts, images, or media to find patterns and meanings. They count or analyze words, themes, or images in newspapers, social media, books, or TV shows.",
+    "example": "A researcher reads 50 newspaper articles and counts how many times words like 'dangerous' or 'criminal' are used to describe migrants."
+  },
+  {
+    "id": "midterm-45",
+    "deck": "midterm",
+    "number": 45,
+    "term": "Experimental and Control Group",
+    "definition": "In an experiment, the experimental group receives the treatment being tested. The control group does not receive the treatment. By comparing the two groups, the researcher can see if the treatment made a difference.",
+    "example": "The experimental group takes a new medicine. The control group takes a sugar pill. Comparing their health shows if the medicine works."
+  },
+  {
+    "id": "midterm-46",
+    "deck": "midterm",
+    "number": 46,
+    "term": "Focus Group",
+    "definition": "A focus group is a small group of people (usually 6 to 12) who discuss a topic together with a researcher. The group discussion gives rich information about people's opinions, feelings, and ideas.",
+    "example": "A company invites 8 customers to talk about a new product. Their conversation reveals what they like, dislike, and what they expect."
+  },
+  {
+    "id": "midterm-47",
+    "deck": "midterm",
+    "number": 47,
+    "term": "Generalizability",
+    "definition": "Generalizability means that the results of a study can be applied to a larger population, not just the people studied. If the sample is large and representative, the results are more generalizable.",
+    "example": "A study of 1,000 randomly selected Kazakh adults can be generalized to all Kazakh adults. A study of 10 people cannot."
+  },
+  {
+    "id": "midterm-48",
+    "deck": "midterm",
+    "number": 48,
+    "term": "Open, Semi-structured, and Closed Questions",
+    "definition": "Closed questions have fixed answer options, like Yes/No or multiple choice — easy to count and analyze. Open questions let people write anything — give more detail but harder to analyze. Semi-structured questions have a main question but allow the person to add more.",
+    "example": "Closed: 'Do you exercise? Yes / No.' Open: 'Why do you exercise or not?' Semi-structured: 'Tell me about your exercise habits.'"
+  },
+  {
+    "id": "midterm-49",
+    "deck": "midterm",
+    "number": 49,
+    "term": "Triangulation",
+    "definition": "Triangulation means using more than one method or data source in the same study. If different methods give the same results, the research is stronger and more trustworthy.",
+    "example": "A researcher studies poverty using surveys, personal interviews, and government statistics. If all three show the same patterns, the findings are more reliable."
+  },
+  {
+    "id": "midterm-50",
+    "deck": "midterm",
+    "number": 50,
+    "term": "Random Sampling",
+    "definition": "Random sampling means that every person in a population has an equal chance of being selected for the study. It is like putting all names in a hat and picking some randomly. This gives the most representative sample.",
+    "example": "Using a computer to randomly select 500 names from a list of all city residents gives every resident an equal chance of being chosen."
+  },
+  {
+    "id": "midterm-51",
+    "deck": "midterm",
+    "number": 51,
+    "term": "Stratified Sampling",
+    "definition": "Stratified sampling means dividing the population into groups (strata) — for example, by age, gender, or region — and then randomly selecting people from each group. This makes sure all groups are included in the sample.",
+    "example": "If 60% of a country's population is female, a stratified sample of 100 people should include 60 women and 40 men."
+  },
+  {
+    "id": "midterm-52",
+    "deck": "midterm",
+    "number": 52,
+    "term": "Snowball Sampling",
+    "definition": "Snowball sampling means one participant recommends another participant, who recommends another, and so on. The sample grows like a snowball rolling down a hill. It is used when the group is hard to find or reach.",
+    "example": "To study drug users, a researcher interviews one person, who gives the contacts of two others, who give more contacts."
+  },
+  {
+    "id": "midterm-53",
+    "deck": "midterm",
+    "number": 53,
+    "term": "Convenience Sampling",
+    "definition": "Convenience sampling means choosing people who are easy to reach and willing to participate. It is fast and cheap but often not representative.",
+    "example": "A researcher surveys students in the university cafeteria because they are nearby and easy to ask."
+  },
+  {
+    "id": "midterm-54",
+    "deck": "midterm",
+    "number": 54,
+    "term": "Correlation and Causation",
+    "definition": "Correlation means two things happen at the same time or change together. Causation means one thing directly causes the other. Just because two things are correlated does not mean one causes the other.",
+    "example": "In summer, both ice cream sales and drowning increase. They are correlated, but ice cream does not cause drowning — hot weather causes both."
+  },
+  {
+    "id": "midterm-55",
+    "deck": "midterm",
+    "number": 55,
+    "term": "Informed Consent",
+    "definition": "Informed consent means that before taking part in research, participants must be told what the study is about, what will happen, and how their data will be used. They must agree voluntarily. They can stop at any time.",
+    "example": "Before an interview, the researcher explains the study, tells the person they can leave at any time, and asks them to sign a form saying they agree."
+  },
+  {
+    "id": "midterm-56",
+    "deck": "midterm",
+    "number": 56,
+    "term": "Social Stratification",
+    "definition": "Social stratification means that society is divided into layers (strata) based on differences in wealth, power, and status. Some people are at the top (rich, powerful) and others are at the bottom (poor, with little power).",
+    "example": "In most societies, doctors and managers have more money, power, and respect than cleaners or farm workers."
+  },
+  {
+    "id": "midterm-57",
+    "deck": "midterm",
+    "number": 57,
+    "term": "Social Status",
+    "definition": "Social status is a person's position in society relative to others. It shows how much respect, prestige, or importance a person has. People can have more than one status at the same time.",
+    "example": "A professor has high social status. A student has lower social status. A person can also have the status of 'parent,' 'immigrant,' and 'volunteer' all at once."
+  },
+  {
+    "id": "midterm-58",
+    "deck": "midterm",
+    "number": 58,
+    "term": "Achieved and Ascribed Status",
+    "definition": "Ascribed status is given to you at birth — you do not choose it. It is based on things like your family, race, or gender. Achieved status is earned through your own work, choices, and efforts.",
+    "example": "Being born into a royal family = ascribed status. Becoming a doctor after many years of study = achieved status."
+  },
+  {
+    "id": "midterm-59",
+    "deck": "midterm",
+    "number": 59,
+    "term": "Social Role",
+    "definition": "A social role is the behavior and responsibilities expected from a person who holds a particular social status or position. Different roles have different rules about how you should act.",
+    "example": "The role of a teacher means giving lessons, grading papers, and helping students. The role of a student means studying, attending class, and doing homework."
+  },
+  {
+    "id": "midterm-60",
+    "deck": "midterm",
+    "number": 60,
+    "term": "Role Conflict",
+    "definition": "Role conflict happens when a person has two or more roles whose demands cannot be satisfied at the same time. You cannot fully do both roles — they conflict with each other.",
+    "example": "A parent and employee has role conflict when they must attend an important meeting at work at the same time their child is sick at home."
+  },
+  {
+    "id": "midterm-61",
+    "deck": "midterm",
+    "number": 61,
+    "term": "Role Strain",
+    "definition": "Role strain happens when one single role has too many different or opposite demands. You feel stressed because it is difficult to fulfill all parts of one role at the same time.",
+    "example": "A nurse must follow hospital rules strictly but also show warmth and personal care to patients — these demands are sometimes opposite and create role strain."
+  },
+  {
+    "id": "midterm-62",
+    "deck": "midterm",
+    "number": 62,
+    "term": "Slavery System",
+    "definition": "Slavery is a system where some people are legally owned by others as their property. Slaves have no freedom, no rights, and no possibility to change their position. It is the most extreme form of social inequality.",
+    "example": "In the 17th–19th centuries, millions of African people were brought to America and forced to work as slaves with no pay, rights, or freedom."
+  },
+  {
+    "id": "midterm-63",
+    "deck": "midterm",
+    "number": 63,
+    "term": "Caste System",
+    "definition": "A caste system is a social system where your position in society is decided at birth and cannot be changed. You are born into a caste and must marry within it. It is most well-known in India.",
+    "example": "In the traditional Indian caste system, a person born into a low caste could not become a priest or warrior, no matter how talented they were."
+  },
+  {
+    "id": "midterm-64",
+    "deck": "midterm",
+    "number": 64,
+    "term": "Industrial and Post-industrial Societies",
+    "definition": "An industrial society is built on factories, machines, and manufacturing. Most people work in production. A post-industrial society is built on services, technology, and knowledge. Most people work in offices, hospitals, schools, or tech companies.",
+    "example": "Britain in the 1800s with coal mines and factories = industrial. The USA today with most people working in services and technology = post-industrial."
+  },
+  {
+    "id": "midterm-65",
+    "deck": "midterm",
+    "number": 65,
+    "term": "Social Mobility",
+    "definition": "Social mobility means movement from one position in society to another. A person can move up (become more successful and wealthy) or down (lose status and money). It shows how much freedom people have to change their position.",
+    "example": "A child from a poor family who studies hard and becomes a successful engineer has experienced social mobility."
+  },
+  {
+    "id": "midterm-66",
+    "deck": "midterm",
+    "number": 66,
+    "term": "Vertical Social Mobility",
+    "definition": "Vertical social mobility means moving up or down in the social hierarchy — changing your level of wealth, status, or power. Moving up = upward mobility. Moving down = downward mobility.",
+    "example": "A factory worker's child becomes a lawyer (upward vertical mobility). A successful businessman loses all his money and becomes poor (downward vertical mobility)."
+  },
+  {
+    "id": "midterm-67",
+    "deck": "midterm",
+    "number": 67,
+    "term": "Horizontal Social Mobility",
+    "definition": "Horizontal social mobility means moving to a different position at the same level — your status and income stay roughly the same, but your job or location changes.",
+    "example": "A teacher who moves to a different school in another city — same job, same salary, different place. The status does not change."
+  },
+  {
+    "id": "midterm-68",
+    "deck": "midterm",
+    "number": 68,
+    "term": "Upward and Downward Mobility",
+    "definition": "Upward mobility means moving to a higher social position — getting more money, a better job, or more status. Downward mobility means moving to a lower social position — losing money, status, or a good job.",
+    "example": "Upward: A cleaner who starts their own cleaning company and becomes wealthy. Downward: A manager who is fired and cannot find a job at the same level."
+  },
+  {
+    "id": "midterm-69",
+    "deck": "midterm",
+    "number": 69,
+    "term": "Intragenerational Mobility",
+    "definition": "Intragenerational mobility means social mobility that happens in one person's own lifetime. You start in one position and during your career you move up or down.",
+    "example": "A person starts working as a shop assistant at age 20, becomes a store manager at 30, and becomes a regional director at 45. This is intragenerational upward mobility."
+  },
+  {
+    "id": "midterm-70",
+    "deck": "midterm",
+    "number": 70,
+    "term": "Intergenerational Mobility",
+    "definition": "Intergenerational mobility means social mobility between generations — comparing the social position of parents and their children. If children are in a better or worse position than their parents, there is intergenerational mobility.",
+    "example": "A father is a farmer, his son becomes a doctor, and his daughter becomes an engineer. The family moved up across generations — strong intergenerational mobility."
+  }
+]

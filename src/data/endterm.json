@@ -1,0 +1,618 @@
+[
+  {
+    "id": "endterm-1",
+    "deck": "endterm",
+    "number": 1,
+    "term": "Socialization",
+    "definition": "The lifelong process through which people learn the norms, values, and behaviors needed to participate in society.",
+    "example": "Children learn socialization at home by observing how their parents behave and interact with others."
+  },
+  {
+    "id": "endterm-2",
+    "deck": "endterm",
+    "number": 2,
+    "term": "Agents of socialization",
+    "definition": "The people, groups, and institutions that teach individuals the norms and values of their society.",
+    "example": "Schools, families, and the media are all important agents of socialization in modern life."
+  },
+  {
+    "id": "endterm-3",
+    "deck": "endterm",
+    "number": 3,
+    "term": "Primary socialization",
+    "definition": "The first and most important stage of socialization, which takes place during early childhood, mainly within the family.",
+    "example": "A child learns to speak, follow basic rules, and develop a sense of right and wrong through primary socialization at home."
+  },
+  {
+    "id": "endterm-4",
+    "deck": "endterm",
+    "number": 4,
+    "term": "Secondary socialization",
+    "definition": "Socialization that occurs later in life when a person learns the norms and values of specific groups or institutions, such as schools or workplaces.",
+    "example": "When a teenager starts high school, they experience secondary socialization by learning how to behave in a larger social environment."
+  },
+  {
+    "id": "endterm-5",
+    "deck": "endterm",
+    "number": 5,
+    "term": "Nature versus nurture",
+    "definition": "An ongoing debate about whether human behavior is shaped more by genetics (nature) or by environment and upbringing (nurture).",
+    "example": "Some scientists argue that intelligence is mainly genetic, while others believe education and environment play a bigger role — this is the nature versus nurture debate."
+  },
+  {
+    "id": "endterm-6",
+    "deck": "endterm",
+    "number": 6,
+    "term": "Family as agent of socialization",
+    "definition": "The family is the primary group that teaches children their first values, language, religion, and rules of behavior.",
+    "example": "Through family dinners and conversations, children learn cultural traditions and social manners."
+  },
+  {
+    "id": "endterm-7",
+    "deck": "endterm",
+    "number": 7,
+    "term": "Education as agent of socialization",
+    "definition": "Schools teach not only academic subjects but also social rules, discipline, and how to work with others.",
+    "example": "At school, students learn to respect authority, cooperate with peers, and follow schedules — all important social skills."
+  },
+  {
+    "id": "endterm-8",
+    "deck": "endterm",
+    "number": 8,
+    "term": "Culture as agent of socialization",
+    "definition": "Culture shapes people's beliefs, customs, and values through shared traditions, language, and symbols.",
+    "example": "Growing up in a culture that values education, a child is likely to see studying as very important."
+  },
+  {
+    "id": "endterm-9",
+    "deck": "endterm",
+    "number": 9,
+    "term": "Mass media as agent of socialization",
+    "definition": "Television, the internet, social networks, and other media influence how people think, behave, and understand the world.",
+    "example": "Young people often adopt fashion trends and attitudes they see in social media influencers."
+  },
+  {
+    "id": "endterm-10",
+    "deck": "endterm",
+    "number": 10,
+    "term": "Workplace as agent of socialization",
+    "definition": "The workplace teaches adults professional norms, teamwork, and the expectations of their job and career.",
+    "example": "A new employee learns how to behave professionally, meet deadlines, and communicate with colleagues through workplace socialization."
+  },
+  {
+    "id": "endterm-11",
+    "deck": "endterm",
+    "number": 11,
+    "term": "Peer group as agent of socialization",
+    "definition": "Friends and age-mates strongly influence a person's attitudes, interests, and behavior, especially during adolescence.",
+    "example": "A teenager may start listening to new music or adopting new hobbies because of the influence of their peer group."
+  },
+  {
+    "id": "endterm-12",
+    "deck": "endterm",
+    "number": 12,
+    "term": "Social identity",
+    "definition": "A person's sense of who they are based on their membership in social groups such as nationality, religion, gender, or profession.",
+    "example": "A person may have a strong social identity as a Muslim, a teacher, and a Kazakh citizen all at the same time."
+  },
+  {
+    "id": "endterm-13",
+    "deck": "endterm",
+    "number": 13,
+    "term": "Desocialization",
+    "definition": "The process of giving up old norms, values, and behaviors, often when entering a new environment such as prison or a military unit.",
+    "example": "Soldiers go through desocialization when they enter the military and must abandon their civilian habits and routines."
+  },
+  {
+    "id": "endterm-14",
+    "deck": "endterm",
+    "number": 14,
+    "term": "Resocialization",
+    "definition": "The process of learning a new set of norms and values to replace old ones, usually after desocialization.",
+    "example": "After leaving prison, a person may go through resocialization to learn how to live and work in society again."
+  },
+  {
+    "id": "endterm-15",
+    "deck": "endterm",
+    "number": 15,
+    "term": "Social Learning Theory (Albert Bandura)",
+    "definition": "Bandura's theory states that people learn behaviors by observing and imitating others, especially role models.",
+    "example": "A child who sees a parent donate to charity may imitate this behavior because of social learning."
+  },
+  {
+    "id": "endterm-16",
+    "deck": "endterm",
+    "number": 16,
+    "term": "Looking-Glass Self (Charles H. Cooley)",
+    "definition": "Cooley's concept that our self-image is shaped by how we think others see and judge us.",
+    "example": "If a student's teacher always praises their writing, the student may begin to see themselves as a talented writer — this is the looking-glass self in action."
+  },
+  {
+    "id": "endterm-17",
+    "deck": "endterm",
+    "number": 17,
+    "term": "Symbolic Interactionism (George H. Mead)",
+    "definition": "A theory that focuses on how people use symbols — like language and gestures — to create meaning and interact with one another.",
+    "example": "When someone waves hello, both people understand this gesture as a friendly greeting — this shared meaning is an example of symbolic interactionism."
+  },
+  {
+    "id": "endterm-18",
+    "deck": "endterm",
+    "number": 18,
+    "term": "Structural Functionalism (Émile Durkheim, Talcott Parsons)",
+    "definition": "A theory that views society as a complex system where each part (family, schools, government) works together to maintain stability and order.",
+    "example": "According to structural functionalism, schools provide education, which prepares citizens for work and keeps the economy stable."
+  },
+  {
+    "id": "endterm-19",
+    "deck": "endterm",
+    "number": 19,
+    "term": "Kohlberg's Theory of Moral Development",
+    "definition": "Lawrence Kohlberg's theory describes how people develop moral reasoning in six stages, from obeying rules to avoid punishment to following universal ethical principles.",
+    "example": "A young child avoids lying because they fear being punished (stage 1), while an adult may refuse to lie because they believe honesty is a universal value (stage 6)."
+  },
+  {
+    "id": "endterm-20",
+    "deck": "endterm",
+    "number": 20,
+    "term": "Family as social institution",
+    "definition": "The family is a fundamental social institution that organizes relationships between people through marriage, parenthood, and kinship.",
+    "example": "In most societies, the family is responsible for raising children and passing on cultural values to the next generation."
+  },
+  {
+    "id": "endterm-21",
+    "deck": "endterm",
+    "number": 21,
+    "term": "Functions of the family",
+    "definition": "The family fulfills several key roles in society: reproduction (having children), socialization (teaching norms), economic support (providing money and resources), emotional support (love and care), and social status (giving members a place in society).",
+    "example": "A family provides its members with financial support during hard times, raises children according to cultural norms, and offers love and emotional security."
+  },
+  {
+    "id": "endterm-22",
+    "deck": "endterm",
+    "number": 22,
+    "term": "Marriage as social institution",
+    "definition": "Marriage is a socially recognized union between individuals that creates legal rights and responsibilities, and is often the foundation of a family.",
+    "example": "In many countries, marriage gives couples the legal right to share property and make medical decisions for each other."
+  },
+  {
+    "id": "endterm-23",
+    "deck": "endterm",
+    "number": 23,
+    "term": "Nuclear family",
+    "definition": "A family unit made up of two parents (usually a mother and a father) and their children living together.",
+    "example": "The Smiths are a typical nuclear family: a mother, a father, and their two children living in one house."
+  },
+  {
+    "id": "endterm-24",
+    "deck": "endterm",
+    "number": 24,
+    "term": "Extended family",
+    "definition": "A family that includes not just parents and children, but also grandparents, aunts, uncles, cousins, and other relatives.",
+    "example": "In many Asian cultures, it is common to live in an extended family, with grandparents living in the same house as their adult children and grandchildren."
+  },
+  {
+    "id": "endterm-25",
+    "deck": "endterm",
+    "number": 25,
+    "term": "Blended family",
+    "definition": "A family formed when two adults with children from previous relationships marry or live together.",
+    "example": "After her parents divorced and remarried, Maria became part of a blended family with two stepbrothers."
+  },
+  {
+    "id": "endterm-26",
+    "deck": "endterm",
+    "number": 26,
+    "term": "Childless family",
+    "definition": "A family in which there are no children, either by choice or circumstance.",
+    "example": "Some couples decide to remain a childless family so they can focus on their careers and personal goals."
+  },
+  {
+    "id": "endterm-27",
+    "deck": "endterm",
+    "number": 27,
+    "term": "One-child family",
+    "definition": "A family with only one child, sometimes as a result of government policy or personal choice.",
+    "example": "China's one-child policy created millions of one-child families during the late 20th century."
+  },
+  {
+    "id": "endterm-28",
+    "deck": "endterm",
+    "number": 28,
+    "term": "Foster family",
+    "definition": "A family that temporarily cares for a child who cannot live with their biological parents, usually arranged by government agencies.",
+    "example": "The Johnsons became a foster family and welcomed a 7-year-old boy into their home while his mother recovered from illness."
+  },
+  {
+    "id": "endterm-29",
+    "deck": "endterm",
+    "number": 29,
+    "term": "Monogamy",
+    "definition": "A marriage system in which a person has only one spouse at a time.",
+    "example": "Monogamy is the legally required form of marriage in most Western countries."
+  },
+  {
+    "id": "endterm-30",
+    "deck": "endterm",
+    "number": 30,
+    "term": "Polygamy",
+    "definition": "A marriage system in which a person has more than one spouse at the same time.",
+    "example": "Polygamy is practiced in some religious and cultural communities, though it is illegal in many countries."
+  },
+  {
+    "id": "endterm-31",
+    "deck": "endterm",
+    "number": 31,
+    "term": "Polyandry",
+    "definition": "A form of polygamy in which one woman is married to two or more men at the same time.",
+    "example": "Polyandry is rare but has been practiced historically in some parts of Tibet and Nepal."
+  },
+  {
+    "id": "endterm-32",
+    "deck": "endterm",
+    "number": 32,
+    "term": "Polygyny",
+    "definition": "A form of polygamy in which one man is married to two or more women at the same time.",
+    "example": "In some traditional societies, polygyny is accepted and a wealthy man may have several wives."
+  },
+  {
+    "id": "endterm-33",
+    "deck": "endterm",
+    "number": 33,
+    "term": "Patriarchal family",
+    "definition": "A family structure in which the father or oldest male holds the most authority and power.",
+    "example": "In a patriarchal family, the father makes most of the major decisions about finances and family life."
+  },
+  {
+    "id": "endterm-34",
+    "deck": "endterm",
+    "number": 34,
+    "term": "Matriarchal family",
+    "definition": "A family structure in which the mother or oldest female holds the most authority and power.",
+    "example": "In a matriarchal family, the grandmother may be the main decision-maker and the center of family life."
+  },
+  {
+    "id": "endterm-35",
+    "deck": "endterm",
+    "number": 35,
+    "term": "Patrilineal family",
+    "definition": "A family system in which descent, inheritance, and family identity are traced through the father's side.",
+    "example": "In a patrilineal system, children take their father's surname and inherit property from the father's family."
+  },
+  {
+    "id": "endterm-36",
+    "deck": "endterm",
+    "number": 36,
+    "term": "Matrilineal family",
+    "definition": "A family system in which descent, inheritance, and family identity are traced through the mother's side.",
+    "example": "In some matrilineal societies, a man's wealth is passed on to his sister's children, not to his own."
+  },
+  {
+    "id": "endterm-37",
+    "deck": "endterm",
+    "number": 37,
+    "term": "Patrilocal family",
+    "definition": "A family arrangement in which a married couple lives with or near the husband's family.",
+    "example": "In a patrilocal society, a bride moves into her husband's family home after the wedding."
+  },
+  {
+    "id": "endterm-38",
+    "deck": "endterm",
+    "number": 38,
+    "term": "Matrilocal family",
+    "definition": "A family arrangement in which a married couple lives with or near the wife's family.",
+    "example": "In a matrilocal community, the husband moves to his wife's village after they get married."
+  },
+  {
+    "id": "endterm-39",
+    "deck": "endterm",
+    "number": 39,
+    "term": "Neolocal family",
+    "definition": "A family arrangement in which a married couple sets up a new, independent home separate from both families.",
+    "example": "Most couples in modern Western societies live in neolocal households, renting or buying their own apartment."
+  },
+  {
+    "id": "endterm-40",
+    "deck": "endterm",
+    "number": 40,
+    "term": "Egalitarian family",
+    "definition": "A family in which power and decision-making are shared equally between partners, regardless of gender.",
+    "example": "In an egalitarian family, both the husband and wife contribute equally to household decisions and chores."
+  },
+  {
+    "id": "endterm-41",
+    "deck": "endterm",
+    "number": 41,
+    "term": "Instrumental tasks within the family",
+    "definition": "Practical, goal-oriented tasks in the family such as earning money, fixing things, and managing finances.",
+    "example": "Going to work, paying bills, and repairing the car are examples of instrumental tasks within the family."
+  },
+  {
+    "id": "endterm-42",
+    "deck": "endterm",
+    "number": 42,
+    "term": "Expressive tasks within the family",
+    "definition": "Emotional and relationship-oriented tasks in the family such as providing love, comfort, and emotional support.",
+    "example": "Listening to a child's problems, giving hugs, and celebrating family successes are examples of expressive tasks."
+  },
+  {
+    "id": "endterm-43",
+    "deck": "endterm",
+    "number": 43,
+    "term": "Reproductive function of family",
+    "definition": "The role of the family in having children and ensuring the continuation of society.",
+    "example": "By having and raising children, families fulfill the reproductive function and help society grow."
+  },
+  {
+    "id": "endterm-44",
+    "deck": "endterm",
+    "number": 44,
+    "term": "Economic function of family",
+    "definition": "The role of the family in providing financial support, housing, food, and other material needs to its members.",
+    "example": "Parents who earn money and pay for their children's education are fulfilling the economic function of the family."
+  },
+  {
+    "id": "endterm-45",
+    "deck": "endterm",
+    "number": 45,
+    "term": "Socialization function of family",
+    "definition": "The role of the family in teaching children the norms, values, and behaviors needed to become functioning members of society.",
+    "example": "When parents teach their children to say 'please' and 'thank you,' they are fulfilling the socialization function of the family."
+  },
+  {
+    "id": "endterm-46",
+    "deck": "endterm",
+    "number": 46,
+    "term": "Emotional function of family",
+    "definition": "The role of the family in providing love, emotional support, and a sense of belonging to its members.",
+    "example": "After a hard day at work, coming home to a loving family fulfills an important emotional function."
+  },
+  {
+    "id": "endterm-47",
+    "deck": "endterm",
+    "number": 47,
+    "term": "Deviance",
+    "definition": "Any behavior or characteristic that violates the norms and expectations of a society or group.",
+    "example": "In a society where being quiet in public is expected, speaking loudly on the phone in a library is considered deviance."
+  },
+  {
+    "id": "endterm-48",
+    "deck": "endterm",
+    "number": 48,
+    "term": "Crime",
+    "definition": "Behavior that breaks a formal law and can be punished by the legal system.",
+    "example": "Stealing a car is a crime because it violates the law and can result in arrest and imprisonment."
+  },
+  {
+    "id": "endterm-49",
+    "deck": "endterm",
+    "number": 49,
+    "term": "Social control",
+    "definition": "The mechanisms and strategies that a society uses to encourage conformity to norms and discourage deviant behavior.",
+    "example": "Laws, religion, and peer pressure are all forms of social control that keep people's behavior within acceptable limits."
+  },
+  {
+    "id": "endterm-50",
+    "deck": "endterm",
+    "number": 50,
+    "term": "Formal social control",
+    "definition": "Social control carried out by official institutions such as the police, courts, and government through laws and regulations.",
+    "example": "When a police officer gives someone a fine for speeding, that is an example of formal social control."
+  },
+  {
+    "id": "endterm-51",
+    "deck": "endterm",
+    "number": 51,
+    "term": "Informal social control",
+    "definition": "Social control carried out through everyday social interactions, such as gossip, ridicule, or disapproval from others.",
+    "example": "If someone cuts in line and others stare at them or say something, that social pressure is an example of informal social control."
+  },
+  {
+    "id": "endterm-52",
+    "deck": "endterm",
+    "number": 52,
+    "term": "Sanctions",
+    "definition": "Rewards or punishments used to enforce social norms and rules.",
+    "example": "Giving an employee a bonus for excellent work is a positive sanction; firing someone for misconduct is a negative sanction."
+  },
+  {
+    "id": "endterm-53",
+    "deck": "endterm",
+    "number": 53,
+    "term": "Positive sanctions",
+    "definition": "Rewards given to people who follow social norms, such as praise, prizes, or promotions.",
+    "example": "Receiving a certificate of achievement for good grades is a positive sanction that encourages students to study hard."
+  },
+  {
+    "id": "endterm-54",
+    "deck": "endterm",
+    "number": 54,
+    "term": "Negative sanctions",
+    "definition": "Punishments or penalties given to people who break social norms or laws, such as fines, imprisonment, or social exclusion.",
+    "example": "Being sent to the principal's office for disrupting class is a negative sanction designed to discourage bad behavior."
+  },
+  {
+    "id": "endterm-55",
+    "deck": "endterm",
+    "number": 55,
+    "term": "Anomie",
+    "definition": "A state of social disorder or normlessness in which individuals feel disconnected from society's norms and values, often leading to deviance.",
+    "example": "After losing his job, his home, and his family in a short time, the man felt anomie — he no longer knew what rules or goals to follow."
+  },
+  {
+    "id": "endterm-56",
+    "deck": "endterm",
+    "number": 56,
+    "term": "Strain Theory (R. Merton)",
+    "definition": "Robert Merton's theory that deviance occurs when people cannot achieve socially accepted goals through legitimate means, causing a 'strain' between goals and available opportunities.",
+    "example": "A person who wants wealth (a social goal) but cannot find a good job may feel strain and be tempted to turn to crime."
+  },
+  {
+    "id": "endterm-57",
+    "deck": "endterm",
+    "number": 57,
+    "term": "Strain Theory – Conformity",
+    "definition": "A response to strain in which a person accepts both the cultural goals (e.g., success) and the legitimate means to achieve them (e.g., working hard).",
+    "example": "A student who works hard and studies for exams to get a good job is conforming to both social goals and accepted means."
+  },
+  {
+    "id": "endterm-58",
+    "deck": "endterm",
+    "number": 58,
+    "term": "Strain Theory – Innovation",
+    "definition": "A response to strain in which a person accepts the cultural goals but uses illegitimate or illegal means to achieve them.",
+    "example": "A person who wants to become rich but decides to sell drugs instead of working legally is an example of innovation in Merton's model."
+  },
+  {
+    "id": "endterm-59",
+    "deck": "endterm",
+    "number": 59,
+    "term": "Strain Theory – Ritualism",
+    "definition": "A response to strain in which a person gives up on achieving cultural goals but continues to follow the rules and routines of society.",
+    "example": "An office worker who no longer hopes for promotion but still comes to work on time every day and follows all the rules is an example of ritualism."
+  },
+  {
+    "id": "endterm-60",
+    "deck": "endterm",
+    "number": 60,
+    "term": "Strain Theory – Retreatism",
+    "definition": "A response to strain in which a person rejects both the cultural goals and the means to achieve them, and withdraws from society.",
+    "example": "A person who becomes homeless and gives up on work and social life entirely is an example of retreatism."
+  },
+  {
+    "id": "endterm-61",
+    "deck": "endterm",
+    "number": 61,
+    "term": "Strain Theory – Rebellion",
+    "definition": "A response to strain in which a person rejects both the existing goals and means and tries to replace them with new ones.",
+    "example": "A political activist who rejects the capitalist system and works to create a new social order is an example of rebellion."
+  },
+  {
+    "id": "endterm-62",
+    "deck": "endterm",
+    "number": 62,
+    "term": "Broken Window Theory",
+    "definition": "A criminological theory that states that visible signs of disorder, such as broken windows or graffiti, encourage more serious crime by signaling that no one cares about the area.",
+    "example": "After city officials repaired broken windows and removed graffiti in a neighborhood, residents reported that crime rates decreased — supporting the broken window theory."
+  },
+  {
+    "id": "endterm-63",
+    "deck": "endterm",
+    "number": 63,
+    "term": "Education as social institution",
+    "definition": "Education is a major social institution that formally transmits knowledge, skills, and values to members of society.",
+    "example": "Public schools are part of the education institution, teaching children literacy, math, and social norms."
+  },
+  {
+    "id": "endterm-64",
+    "deck": "endterm",
+    "number": 64,
+    "term": "Formal education",
+    "definition": "Structured, certified learning that takes place in official institutions such as schools, colleges, and universities.",
+    "example": "Attending a university to get a degree in medicine is an example of formal education."
+  },
+  {
+    "id": "endterm-65",
+    "deck": "endterm",
+    "number": 65,
+    "term": "Non-formal education",
+    "definition": "Organized learning that takes place outside of the official school system, such as training programs, workshops, or online courses.",
+    "example": "Taking an online course in photography or attending a cooking class is a form of non-formal education."
+  },
+  {
+    "id": "endterm-66",
+    "deck": "endterm",
+    "number": 66,
+    "term": "Hidden curriculum",
+    "definition": "The unofficial lessons and values that students learn in school beyond academic subjects, such as obedience, punctuality, and competition.",
+    "example": "By requiring students to sit quietly and raise their hand before speaking, schools teach obedience and discipline as part of the hidden curriculum."
+  },
+  {
+    "id": "endterm-67",
+    "deck": "endterm",
+    "number": 67,
+    "term": "Meritocracy",
+    "definition": "A system in which people succeed based on their own talent, effort, and ability rather than their family background or social status.",
+    "example": "In a meritocracy, a student who studies hard and gets top grades has a better chance of getting into a good university, regardless of their family's wealth."
+  },
+  {
+    "id": "endterm-68",
+    "deck": "endterm",
+    "number": 68,
+    "term": "Social change",
+    "definition": "Significant alterations over time in the behaviors, norms, values, and structure of society.",
+    "example": "The widespread use of smartphones has brought major social change, transforming how people communicate and access information."
+  },
+  {
+    "id": "endterm-69",
+    "deck": "endterm",
+    "number": 69,
+    "term": "Primary forms of collective behavior",
+    "definition": "The four main types of collective behavior are: the crowd (a temporary group in the same place), the mass (a large dispersed group sharing an interest), the public (a dispersed group discussing an issue), and social movements (organized groups seeking change).",
+    "example": "When thousands of people march together in a protest, they form a crowd; when millions watch the same TV show, they form a mass audience."
+  },
+  {
+    "id": "endterm-70",
+    "deck": "endterm",
+    "number": 70,
+    "term": "Casual crowd",
+    "definition": "A temporary and loosely organized group of people who happen to be in the same place at the same time with little interaction.",
+    "example": "People waiting for a bus on a street corner form a casual crowd — they share a space but have no common goal or strong connection."
+  },
+  {
+    "id": "endterm-71",
+    "deck": "endterm",
+    "number": 71,
+    "term": "Conventional crowd",
+    "definition": "A crowd that gathers for a specific, planned event with clear norms of behavior.",
+    "example": "An audience at a classical music concert is a conventional crowd — they are expected to sit quietly and applaud at the right moments."
+  },
+  {
+    "id": "endterm-72",
+    "deck": "endterm",
+    "number": 72,
+    "term": "Expressive crowd",
+    "definition": "A crowd that gathers to express emotions and feelings, such as joy, grief, or excitement.",
+    "example": "Fans celebrating their team's championship victory in the streets form an expressive crowd."
+  },
+  {
+    "id": "endterm-73",
+    "deck": "endterm",
+    "number": 73,
+    "term": "Acting crowd",
+    "definition": "A crowd that is emotionally aroused and focused on a specific goal or action, which can sometimes lead to violence or riots.",
+    "example": "During a riot, an acting crowd may destroy property and clash with police as emotions run out of control."
+  },
+  {
+    "id": "endterm-74",
+    "deck": "endterm",
+    "number": 74,
+    "term": "Preliminary stage of social movements",
+    "definition": "The first stage of a social movement, when a problem is identified and a small group of people begin to feel dissatisfied and want change.",
+    "example": "When a few activists first began speaking out about climate change, the environmental movement was in its preliminary stage."
+  },
+  {
+    "id": "endterm-75",
+    "deck": "endterm",
+    "number": 75,
+    "term": "Coalescence stage of social movements",
+    "definition": "The stage when a movement becomes more organized, gains more members, and develops clear goals and strategies.",
+    "example": "The civil rights movement entered the coalescence stage in the 1950s when organizations formed and planned coordinated protests."
+  },
+  {
+    "id": "endterm-76",
+    "deck": "endterm",
+    "number": 76,
+    "term": "Institutionalization stage of social movements",
+    "definition": "The stage when a movement becomes established and may create formal organizations, have paid staff, and work within the existing social system.",
+    "example": "Once environmental groups gained government recognition and began lobbying for laws, the movement reached the institutionalization stage."
+  },
+  {
+    "id": "endterm-77",
+    "deck": "endterm",
+    "number": 77,
+    "term": "Decline stage of social movements",
+    "definition": "The final stage when a movement loses momentum due to achieving its goals, losing support, repression, or internal conflicts.",
+    "example": "After women gained the right to vote in many countries, the first wave of the feminist movement entered a decline stage."
+  }
+]

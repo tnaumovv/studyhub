@@ -1,0 +1,118 @@
+:root {
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  --glass-blur: 16px;
+  --transition: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"],
+:root {
+  --term-title: #ffffff;
+  --bg-gradient: linear-gradient(
+    135deg,
+    #0d9488 0%,
+    #1e3a5f 38%,
+    #0a0a12 72%
+  );
+  --sidebar-bg: rgba(255, 255, 255, 0.08);
+  --sidebar-border: rgba(255, 255, 255, 0.12);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.15);
+  --surface: rgba(255, 255, 255, 0.1);
+  --surface-muted: rgba(255, 255, 255, 0.06);
+  --text: #f8fafc;
+  --text-muted: rgba(248, 250, 252, 0.65);
+  --border: rgba(255, 255, 255, 0.12);
+  --primary: #5eead4;
+  --primary-hover: #99f6e4;
+  --primary-text: #0f172a;
+  --danger: #f87171;
+  --danger-hover: #fca5a5;
+  --danger-text: #0f172a;
+  --correct: #86efac;
+  --correct-bg: rgba(34, 197, 94, 0.25);
+  --wrong: #fca5a5;
+  --wrong-bg: rgba(239, 68, 68, 0.25);
+  --chip: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="light"] {
+  --term-title: #0f172a;
+  --bg-gradient: linear-gradient(
+    135deg,
+    #5eead4 0%,
+    #818cf8 40%,
+    #e2e8f0 100%
+  );
+  --sidebar-bg: rgba(255, 255, 255, 0.55);
+  --sidebar-border: rgba(255, 255, 255, 0.7);
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --surface: rgba(255, 255, 255, 0.7);
+  --surface-muted: rgba(255, 255, 255, 0.5);
+  --text: #0f172a;
+  --text-muted: #475569;
+  --border: rgba(15, 23, 42, 0.1);
+  --primary: #4f46e5;
+  --primary-hover: #6366f1;
+  --primary-text: #ffffff;
+  --chip: rgba(79, 70, 229, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--text);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border-radius: var(--radius-pill);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--primary);
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  box-shadow: var(--shadow);
+}

@@ -3,9 +3,11 @@ import { LecturesPanel } from "./components/LecturesPanel";
 import { SettingsPanel } from "./components/SettingsPanel";
 import { Sidebar } from "./components/Sidebar";
 import { SlivModal } from "./components/SlivModal";
+import { StudyControls } from "./components/StudyControls";
 import { StudyPanel } from "./components/StudyPanel";
 import { SubjectsPanel } from "./components/SubjectsPanel";
 import { useAppData } from "./hooks/useAppData";
+import { useStudyState } from "./hooks/useStudyState";
 import { useTheme } from "./hooks/useTheme";
 import type { AppView } from "./types";
 import "./App.css";
@@ -55,6 +57,12 @@ export default function App() {
     }
   };
 
+  const studyState = useStudyState(
+    activeSubject!,
+    subjectLectures,
+    subjectSlivDecks,
+  );
+
   const shellClass = [
     "shell",
     sidebarOpen ? "shell--sidebar-open" : "shell--sidebar-closed",
@@ -94,9 +102,12 @@ export default function App() {
         onToggleTheme={toggleTheme}
         themeLabel={theme === "light" ? "Dark" : "Light"}
         onNavClick={closeMobile}
+        studyControls={
+          view === "study" ? <StudyControls {...studyState} /> : undefined
+        }
       />
 
-      <div className="shell__main">
+      <div className={`shell__main ${view === "study" ? "shell__main--study" : ""}`}>
         <header className="main-header">
           <button
             type="button"
@@ -126,11 +137,7 @@ export default function App() {
         </header>
 
         {view === "study" && (
-          <StudyPanel
-            subject={activeSubject}
-            lectures={subjectLectures}
-            slivDecks={subjectSlivDecks}
-          />
+          <StudyPanel subject={activeSubject} study={studyState} />
         )}
 
         {view === "lectures" && (

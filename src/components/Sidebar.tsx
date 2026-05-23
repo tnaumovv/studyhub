@@ -1,4 +1,4 @@
-import type { ReactElement } from "react";
+import type { ReactElement, ReactNode } from "react";
 import type { AppView, Subject } from "../types";
 
 interface SidebarProps {
@@ -12,6 +12,7 @@ interface SidebarProps {
   onToggleTheme: () => void;
   themeLabel: string;
   onNavClick?: () => void;
+  studyControls?: ReactNode;
 }
 
 const NAV: { id: AppView; label: string }[] = [
@@ -93,6 +94,7 @@ export function Sidebar({
   onToggleTheme,
   themeLabel,
   onNavClick,
+  studyControls,
 }: SidebarProps) {
   const pick = (fn: () => void) => () => {
     fn();
@@ -145,6 +147,10 @@ export function Sidebar({
               );
             })}
           </nav>
+
+          {view === "study" && studyControls ? (
+            <div className="sidebar__study-wrap">{studyControls}</div>
+          ) : null}
 
           <div className="sidebar__subjects-block">
             <span className="sidebar__label">Subjects</span>

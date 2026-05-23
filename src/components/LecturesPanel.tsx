@@ -1,6 +1,9 @@
 import { useRef, useState } from "react";
 import type { Lecture, Subject } from "../types";
-import { fetchYouTubeTranscriptEn } from "../utils/youtube";
+import {
+  fetchYouTubeTranscript,
+  shouldForceEnglishSummary,
+} from "../utils/youtube";
 
 interface LecturesPanelProps {
   subject: Subject;
@@ -78,7 +81,7 @@ export function LecturesPanel({
     setLoading(true);
     setError("");
     try {
-      const { text, videoId } = await fetchYouTubeTranscriptEn(youtubeUrl);
+      const { text, videoId } = await fetchYouTubeTranscript(youtubeUrl);
       setPaste(text);
       if (!title.trim()) setTitle(`YouTube ${videoId}`);
       setError("");
@@ -95,11 +98,13 @@ export function LecturesPanel({
     try {
       let text = paste.trim();
       let videoId: string | undefined;
+      let forceEnglish = false;
 
       if (youtubeUrl.trim()) {
-        const fetched = await fetchYouTubeTranscriptEn(youtubeUrl);
+        const fetched = await fetchYouTubeTranscript(youtubeUrl);
         text = fetched.text;
         videoId = fetched.videoId;
+        forceEnglish = shouldForceEnglishSummary(fetched.lang);
         setPaste(text);
       }
 
@@ -111,7 +116,7 @@ export function LecturesPanel({
       await onAdd(title.trim() || `YouTube ${videoId ?? "lecture"}`, text, {
         youtubeUrl: youtubeUrl.trim() || undefined,
         youtubeVideoId: videoId,
-        forceEnglish: true,
+        forceEnglish,
       });
       setYoutubeUrl("");
       setPaste("");

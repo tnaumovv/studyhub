@@ -1,6 +1,9 @@
 import type { ServerResponse } from "node:http";
 import type { Plugin, PreviewServer, ViteDevServer } from "vite";
-import { YoutubeTranscript } from "youtube-transcript";
+import {
+  fetchTranscriptForVideo,
+  parseVideoId,
+} from "./server/youtubeTranscript";
 
 function sendJson(
   res: ServerResponse,
@@ -12,25 +15,6 @@ function sendJson(
   res.end(JSON.stringify(body));
 }
 
-async function handleTranscript(
-  videoId: string,
-): Promise<{ text: string; segments: number }> {
-  const chunks = await YoutubeTranscript.fetchTranscript(videoId, {
-    lang: "en",
-  });
-
-  if (!chunks.length) {
-    throw new Error("No English captions found for this video.");
-  }
-
-  const text = chunks
-    .map((c) => c.text.replace(/\s+/g, " ").trim())
-    .filter(Boolean)
-    .join(" ");
-
-  return { text, segments: chunks.length };
-}
-
 function attachMiddleware(middlewares: ViteDevServer["middlewares"]) {
   middlewares.use("/api/youtube/transcript", async (req, res) => {
     if (req.method !== "GET") {
@@ -39,15 +23,15 @@ function attachMiddleware(middlewares: ViteDevServer["middlewares"]) {
     }
 
     const url = new URL(req.url ?? "", "http://localhost");
-    const videoId = url.searchParams.get("videoId")?.trim();
+    const videoId = parseVideoId(url.searchParams.get("videoId") ?? undefined);
 
-    if (!videoId || !/^[\w-]{11}$/.test(videoId)) {
+    if (!videoId) {
       sendJson(res, 400, { error: "Invalid videoId" });
       return;
     }
 
     try {
-      const result = await handleTranscript(videoId);
+      const result = await fetchTranscriptForVideo(videoId);
       sendJson(res, 200, result);
     } catch (err) {
       const message =

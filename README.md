@@ -18,6 +18,13 @@ npm install
 npm run dev
 ```
 
+## Deploy on Vercel
+
+1. Push the repo to GitHub and import the project on [vercel.com](https://vercel.com).
+2. Framework preset: **Vite** (or use the included `vercel.json`).
+3. Deploy — YouTube transcripts use the serverless route `api/youtube/transcript.ts` (no extra env vars).
+4. After changing API code, trigger a **Redeploy** on Vercel.
+
 ## Sociology data
 
 Midterm (70) and endterm (77) terms are in `src/data/`. Regenerate with:

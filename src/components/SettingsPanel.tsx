@@ -45,8 +45,9 @@ export function SettingsPanel({
         </label>
 
         <p className="panel-card__hint settings-card__note">
-          Stored only in your browser. YouTube transcripts load via the local
-          server when you run <code>npm run dev</code>.
+          Stored only in your browser. YouTube transcripts use{" "}
+          <code>/api/youtube/transcript</code> (works on Vercel and with{" "}
+          <code>npm run dev</code>).
         </p>
       </div>
     </div>

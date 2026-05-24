@@ -1445,3 +1445,555 @@
     justify-content: center;
   }
 }
+
+/* —— Cultural Studies exam guide —— */
+
+.shell--guide {
+  min-height: 100dvh;
+}
+
+.shell--guide .shell__main--guide {
+  max-width: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: calc(100dvh - 0px);
+  overflow: hidden;
+}
+
+.shell--guide .main-header {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0.75rem 1rem 0.5rem;
+  padding-top: max(0.75rem, env(safe-area-inset-top));
+}
+
+.shell--guide .main-header__title {
+  font-size: 1.15rem;
+}
+
+.shell--guide .main-header__subtitle {
+  font-size: 0.8rem;
+}
+
+.shell--guide .fab {
+  display: none;
+}
+
+.study-stage--guide {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-guide {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  grid-template-rows: 1fr auto;
+  position: relative;
+}
+
+.cs-guide__scroll {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  padding: 0 1.25rem 5.5rem;
+  scroll-padding-top: 1rem;
+}
+
+.cs-guide__hero {
+  text-align: center;
+  padding: 1.5rem 0.5rem 2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.cs-guide__eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.cs-guide__title {
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  background: linear-gradient(135deg, var(--text) 0%, var(--primary) 120%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cs-guide__subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.cs-guide__desc {
+  margin: 0.75rem auto 0;
+  max-width: 36rem;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.cs-guide__hero-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 1.25rem;
+}
+
+.cs-guide__hero-chip {
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-muted);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.cs-guide__hero-chip:hover {
+  background: var(--primary);
+  color: var(--primary-text);
+  border-color: transparent;
+}
+
+.cs-guide__content {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.cs-guide__section {
+  scroll-margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.cs-guide__section:last-child {
+  border-bottom: none;
+}
+
+.cs-guide__section-head {
+  margin-bottom: 1.25rem;
+}
+
+.cs-guide__section-num {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 0.35rem;
+}
+
+.cs-guide__section-title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.cs-guide__section-sub {
+  margin: 0.4rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.cs-guide__section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.cs-guide__h3 {
+  margin: 1rem 0 0.25rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.cs-guide__h4 {
+  margin: 0.75rem 0 0.15rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.cs-guide__p {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.cs-guide__list {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.cs-guide__list li + li {
+  margin-top: 0.35rem;
+}
+
+.cs-guide__table-wrap {
+  overflow-x: auto;
+  margin: 0.5rem 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  -webkit-overflow-scrolling: touch;
+}
+
+.cs-guide__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.cs-guide__table th,
+.cs-guide__table td {
+  padding: 0.55rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+
+.cs-guide__table th {
+  background: var(--surface-muted);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.cs-guide__table tr:last-child td {
+  border-bottom: none;
+}
+
+.cs-guide__callout {
+  margin: 0.35rem 0;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--primary);
+  background: var(--surface-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.cs-guide__callout p {
+  margin: 0.35rem 0 0;
+}
+
+.cs-guide__callout--key {
+  border-left-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.12);
+}
+
+.cs-guide__callout-title {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.25rem;
+}
+
+.cs-guide__terms {
+  margin: 0.5rem 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.cs-guide__term {
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--radius-md);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+}
+
+.cs-guide__term dt {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.cs-guide__term dd {
+  margin: 0.25rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.cs-guide__goodluck {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  color: var(--primary);
+}
+
+.cs-guide__toc {
+  grid-column: 2;
+  grid-row: 1;
+  border-left: 1px solid var(--border);
+  background: var(--surface-muted);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-guide__toc-inner {
+  padding: 1rem 0.75rem;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.cs-guide__toc-label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+  padding: 0 0.35rem;
+}
+
+.cs-guide__toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.cs-guide__toc-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.45rem 0.5rem;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  line-height: 1.35;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+
+.cs-guide__toc-item:hover,
+.cs-guide__toc-item--active {
+  background: var(--chip);
+  color: var(--text);
+}
+
+.cs-guide__toc-num {
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--primary);
+  min-width: 1.1rem;
+}
+
+.cs-guide__mobile-bar {
+  display: none;
+  grid-column: 1 / -1;
+  position: sticky;
+  bottom: 0;
+  z-index: 50;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.65rem;
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+  background: var(--sidebar-bg);
+  border-top: 1px solid var(--border);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.cs-guide__mobile-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cs-guide__mobile-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.cs-guide__mobile-btn--menu {
+  flex: 1;
+  font-size: 0.85rem;
+}
+
+.cs-guide__mobile-progress {
+  flex: 1;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  min-width: 3rem;
+}
+
+.cs-guide__sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.cs-guide__sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 210;
+  max-height: 75dvh;
+  overflow-y: auto;
+  padding: 1rem 1rem max(1rem, env(safe-area-inset-bottom));
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  background: var(--sidebar-bg);
+  border: 1px solid var(--sidebar-border);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.cs-guide__sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.cs-guide__sheet-head h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.cs-guide__sheet-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cs-guide__sheet-list button {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.85rem 0;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.cs-guide__sheet-list strong {
+  display: block;
+  font-size: 0.92rem;
+  line-height: 1.3;
+}
+
+.cs-guide__sheet-list small {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.cs-guide__sheet-num {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-sm);
+  background: var(--primary);
+  color: var(--primary-text);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .cs-guide {
+    grid-template-columns: 1fr;
+  }
+
+  .cs-guide__toc {
+    display: none;
+  }
+
+  .cs-guide__mobile-bar {
+    display: flex;
+  }
+
+  .cs-guide__scroll {
+    padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 860px) {
+  .shell--guide .shell__main--guide {
+    height: 100dvh;
+    padding: 0;
+  }
+
+  .shell--guide .main-header {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+
+  .cs-guide__scroll {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+
+  .cs-guide__hero {
+    padding-top: 0.75rem;
+  }
+
+  .cs-guide__section-title {
+    font-size: 1.2rem;
+  }
+}

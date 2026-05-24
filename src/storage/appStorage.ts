@@ -1,6 +1,8 @@
+import { culturalStudiesSubject } from "../data/culturalStudiesSeed";
 import { sociologySubject } from "../data/sociologySeed";
 import type { AppData, Lecture, SlivDeck } from "../types";
 import {
+  CULTURAL_STUDIES_SUBJECT_ID,
   DEFAULT_SETTINGS,
   SOCIOLOGY_SUBJECT_ID,
 } from "../types";
@@ -18,11 +20,30 @@ function migrateLecture(lec: Lecture, fallbackSubjectId: string): Lecture | null
   };
 }
 
+function mergeBuiltinSubjects(subjects: AppData["subjects"]): AppData["subjects"] {
+  let next = [...subjects];
+  const builtins = [
+    { id: SOCIOLOGY_SUBJECT_ID, seed: sociologySubject },
+    { id: CULTURAL_STUDIES_SUBJECT_ID, seed: culturalStudiesSubject },
+  ] as const;
+
+  for (const { id, seed } of builtins) {
+    const idx = next.findIndex((s) => s.id === id);
+    if (idx === -1) {
+      next.push(structuredClone(seed));
+    } else if (next[idx].builtin) {
+      next[idx] = structuredClone(seed);
+    }
+  }
+
+  return next;
+}
+
 function createInitialData(): AppData {
   return {
     version: 3,
     activeSubjectId: SOCIOLOGY_SUBJECT_ID,
-    subjects: [structuredClone(sociologySubject)],
+    subjects: mergeBuiltinSubjects([structuredClone(sociologySubject)]),
     lectures: [],
     slivDecks: [],
     settings: { ...DEFAULT_SETTINGS },
@@ -37,19 +58,7 @@ export function loadAppData(): AppData {
     const parsed = JSON.parse(raw) as AppData;
     if (!parsed.subjects?.length) return createInitialData();
 
-    const hasSociology = parsed.subjects.some(
-      (s) => s.id === SOCIOLOGY_SUBJECT_ID,
-    );
-    if (!hasSociology) {
-      parsed.subjects.unshift(structuredClone(sociologySubject));
-    } else {
-      const idx = parsed.subjects.findIndex(
-        (s) => s.id === SOCIOLOGY_SUBJECT_ID,
-      );
-      if (parsed.subjects[idx].builtin) {
-        parsed.subjects[idx] = structuredClone(sociologySubject);
-      }
-    }
+    parsed.subjects = mergeBuiltinSubjects(parsed.subjects);
 
     parsed.version = 3;
     parsed.settings = { ...DEFAULT_SETTINGS, ...parsed.settings };

@@ -9,7 +9,7 @@ import { SubjectsPanel } from "./components/SubjectsPanel";
 import { useAppData } from "./hooks/useAppData";
 import { useStudyState } from "./hooks/useStudyState";
 import { useTheme } from "./hooks/useTheme";
-import type { AppView } from "./types";
+import { CULTURAL_STUDIES_SUBJECT_ID, type AppView } from "./types";
 import "./App.css";
 
 const SIDEBAR_KEY = "study-hub-sidebar-open";
@@ -63,10 +63,14 @@ export default function App() {
     subjectSlivDecks,
   );
 
+  const isGuideSubject = activeSubject?.id === CULTURAL_STUDIES_SUBJECT_ID;
+  const isGuideStudy = view === "study" && isGuideSubject;
+
   const shellClass = [
     "shell",
     sidebarOpen ? "shell--sidebar-open" : "shell--sidebar-closed",
     mobileOpen ? "shell--mobile-open" : "",
+    isGuideStudy ? "shell--guide" : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -74,7 +78,9 @@ export default function App() {
   if (!activeSubject) return null;
 
   const subtitles: Record<AppView, string> = {
-    study: "Lecture notes and quizzes",
+    study: isGuideSubject
+      ? "Exam study guide — 10 lectures"
+      : "Lecture notes and quizzes",
     lectures: "Upload and manage lectures",
     subjects: "Add and delete subjects",
     settings: "AI preferences",
@@ -103,11 +109,21 @@ export default function App() {
         themeLabel={theme === "light" ? "Dark" : "Light"}
         onNavClick={closeMobile}
         studyControls={
-          view === "study" ? <StudyControls {...studyState} /> : undefined
+          view === "study" ? (
+            <StudyControls {...studyState} subjectId={activeSubject.id} />
+          ) : undefined
         }
       />
 
-      <div className={`shell__main ${view === "study" ? "shell__main--study" : ""}`}>
+      <div
+        className={[
+          "shell__main",
+          view === "study" ? "shell__main--study" : "",
+          isGuideStudy ? "shell__main--guide" : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+      >
         <header className="main-header">
           <button
             type="button"

@@ -1,6 +1,7 @@
 import type { StudyState } from "../hooks/useStudyState";
+import { CULTURAL_STUDIES_SUBJECT_ID } from "../types";
 
-type StudyControlsProps = Pick<
+interface StudyControlsProps extends Pick<
   StudyState,
   | "displayFormat"
   | "setDisplayFormat"
@@ -17,9 +18,12 @@ type StudyControlsProps = Pick<
   | "slivDecks"
   | "hasTerms"
   | "modeHint"
->;
+> {
+  subjectId?: string;
+}
 
 export function StudyControls({
+  subjectId,
   displayFormat,
   setDisplayFormat,
   quizSource,
@@ -36,6 +40,11 @@ export function StudyControls({
   hasTerms,
   modeHint,
 }: StudyControlsProps) {
+  const isCulturalStudies = subjectId === CULTURAL_STUDIES_SUBJECT_ID;
+  const canQuiz =
+    !isCulturalStudies &&
+    (lectureQuestions.length > 0 || hasTerms || slivDecks.length > 0);
+
   return (
     <div className="sidebar-study-controls">
       <span className="sidebar__label">Format</span>
@@ -45,15 +54,17 @@ export function StudyControls({
           className={`sidebar-segmented__btn ${displayFormat === "lecture" ? "sidebar-segmented__btn--active" : ""}`}
           onClick={() => setDisplayFormat("lecture")}
         >
-          Lecture
+          {isCulturalStudies ? "Guide" : "Lecture"}
         </button>
-        <button
-          type="button"
-          className={`sidebar-segmented__btn ${displayFormat === "quiz" ? "sidebar-segmented__btn--active" : ""}`}
-          onClick={() => setDisplayFormat("quiz")}
-        >
-          Quiz
-        </button>
+        {canQuiz ? (
+          <button
+            type="button"
+            className={`sidebar-segmented__btn ${displayFormat === "quiz" ? "sidebar-segmented__btn--active" : ""}`}
+            onClick={() => setDisplayFormat("quiz")}
+          >
+            Quiz
+          </button>
+        ) : null}
       </div>
 
       {displayFormat === "quiz" ? (

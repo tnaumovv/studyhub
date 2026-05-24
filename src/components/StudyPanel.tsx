@@ -1,10 +1,11 @@
+import { CulturalStudiesGuideView } from "./CulturalStudiesGuideView";
 import { FlashcardView } from "./FlashcardView";
 import { LectureNotesView } from "./LectureNotesView";
 import { QuizSession } from "./QuizSession";
 import { QuizView } from "./QuizView";
 import { SessionComplete } from "./SessionComplete";
 import type { StudyState } from "../hooks/useStudyState";
-import type { Subject } from "../types";
+import { CULTURAL_STUDIES_SUBJECT_ID, type Subject } from "../types";
 
 interface StudyPanelProps {
   subject: Subject;
@@ -33,6 +34,13 @@ export function StudyPanel({ subject, study }: StudyPanelProps) {
   } = study;
 
   if (displayFormat === "lecture") {
+    if (subject.id === CULTURAL_STUDIES_SUBJECT_ID) {
+      return (
+        <div className="study-stage study-stage--guide">
+          <CulturalStudiesGuideView />
+        </div>
+      );
+    }
     return (
       <div className="study-stage">
         <LectureNotesView lectures={subjectLectures} subjectName={subject.name} />

@@ -78,6 +78,7 @@ export const EXAM_MODE_ID = "exam";
 export const DEFAULT_EXAM_COUNT = 40;
 export const LECTURE_QUIZ_COUNT = 5;
 export const SOCIOLOGY_SUBJECT_ID = "sociology";
+export const CULTURAL_STUDIES_SUBJECT_ID = "cultural-studies";
 
 export const DEFAULT_SETTINGS: AppSettings = {
   openAiApiKey: "",

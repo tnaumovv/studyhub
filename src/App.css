@@ -1454,6 +1454,20 @@
   background: var(--bg-gradient);
 }
 
+/* Guide fills the viewport on all screens; phone adds column flex below */
+html.guide-fullscreen .shell--guide {
+  min-height: 100dvh;
+  min-height: -webkit-fill-available;
+  height: 100%;
+  overflow: hidden;
+}
+
+html.guide-fullscreen .shell--guide .shell__main--guide {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
 .shell--guide .shell__main--guide {
   max-width: none;
   padding: 0;
@@ -1967,8 +1981,18 @@
   font-size: 0.9rem;
 }
 
-/* Laptop / desktop guide: full width + large type (above phone/tablet breakpoint) */
-@media (min-width: 1101px) {
+/* Laptop / desktop guide: full width + large type (861px+ — not phone narrow column) */
+@media (min-width: 861px) {
+  html.guide-fullscreen .shell--guide {
+    height: 100dvh;
+    max-height: 100dvh;
+  }
+
+  html.guide-fullscreen .shell--guide .shell__main--guide {
+    max-height: 100dvh;
+    height: auto;
+  }
+
   .shell.shell--guide .shell__main.shell__main--study.shell__main--guide {
     max-width: none;
     width: 100%;
@@ -2159,8 +2183,8 @@
   }
 }
 
-/* Phone / tablet guide layout (up to 1100px — unchanged narrow column) */
-@media (max-width: 1100px) {
+/* Phone guide layout only (narrow column + bottom bar) */
+@media (max-width: 860px) {
   .cs-guide__content {
     max-width: 42rem;
     margin: 0 auto;
@@ -2186,33 +2210,17 @@
     padding-bottom: calc(
       4.25rem + env(safe-area-inset-bottom, 0px)
     );
+    padding-left: max(1rem, env(safe-area-inset-left, 0px));
+    padding-right: max(1rem, env(safe-area-inset-right, 0px));
+    padding-top: 0.25rem;
   }
-}
 
-@media (max-width: 860px) {
   html.guide-fullscreen .shell--guide {
     flex: 1;
     display: flex;
     flex-direction: column;
-    min-height: 100dvh;
-    min-height: -webkit-fill-available;
-    height: 100%;
     width: 100%;
     margin: 0;
-    overflow: hidden;
-  }
-
-  html.guide-fullscreen .shell--guide .shell__main--guide {
-    flex: 1;
-    min-height: 0;
-    height: auto;
-    padding: 0;
-  }
-
-  .cs-guide__scroll {
-    padding-left: max(1rem, env(safe-area-inset-left, 0px));
-    padding-right: max(1rem, env(safe-area-inset-right, 0px));
-    padding-top: 0.25rem;
   }
 
   .cs-guide__hero {
@@ -2231,3 +2239,4 @@
     padding-bottom: env(safe-area-inset-bottom, 0px);
   }
 }
+

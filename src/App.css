@@ -1493,20 +1493,24 @@
   min-height: 0;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: none;
+  margin: 0;
 }
 
 .cs-guide {
   flex: 1;
   min-height: 0;
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
   position: relative;
 }
 
 .cs-guide__scroll {
-  grid-column: 1;
-  grid-row: 1 / -1;
+  flex: 1;
+  min-width: 0;
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
@@ -1760,13 +1764,14 @@
 }
 
 .cs-guide__toc {
-  grid-column: 2;
-  grid-row: 1;
+  flex: 0 0 220px;
+  width: 220px;
   border-left: 1px solid var(--border);
   background: var(--surface-muted);
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-self: stretch;
 }
 
 .cs-guide__toc-inner {
@@ -1964,6 +1969,11 @@
 
 /* Laptop / desktop guide: full width + large type (above phone/tablet breakpoint) */
 @media (min-width: 1101px) {
+  .shell.shell--guide .shell__main.shell__main--study.shell__main--guide {
+    max-width: none;
+    width: 100%;
+  }
+
   .shell--guide .shell__main--guide {
     max-width: none;
     width: 100%;
@@ -1986,18 +1996,28 @@
     width: 100%;
   }
 
-  .cs-guide {
-    grid-template-columns: minmax(0, 1fr) 260px;
+  .cs-guide__toc {
+    flex: 0 0 280px;
+    width: 280px;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    max-height: 100%;
   }
 
   .cs-guide__scroll {
-    padding: 0 2.5rem 3rem;
+    padding: 0 2.5rem 3rem 2rem;
     width: 100%;
   }
 
   .cs-guide__hero {
     padding: 2rem 0 2.75rem;
     width: 100%;
+    text-align: left;
+  }
+
+  .cs-guide__hero-nav {
+    justify-content: flex-start;
   }
 
   .cs-guide__title {
@@ -2100,12 +2120,13 @@
 }
 
 @media (min-width: 1440px) {
-  .cs-guide {
-    grid-template-columns: minmax(0, 1fr) 300px;
+  .cs-guide__toc {
+    flex: 0 0 300px;
+    width: 300px;
   }
 
   .cs-guide__scroll {
-    padding: 0 3.5rem 3.5rem;
+    padding: 0 3.5rem 3.5rem 2.5rem;
   }
 
   .cs-guide__title {
@@ -2150,15 +2171,11 @@
   }
 
   .cs-guide {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
   .cs-guide__toc {
     display: none;
-  }
-
-  .cs-guide {
-    grid-template-rows: 1fr;
   }
 
   .cs-guide__mobile-bar {

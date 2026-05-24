@@ -1965,6 +1965,11 @@
 }
 
 @media (min-width: 901px) {
+  .shell--guide .shell__main--guide {
+    max-width: none;
+    width: 100%;
+  }
+
   .shell--guide .main-header {
     padding: 1rem 2rem 0.65rem;
   }
@@ -1977,16 +1982,23 @@
     font-size: 0.92rem;
   }
 
+  .study-stage--guide,
+  .cs-guide {
+    width: 100%;
+  }
+
   .cs-guide {
     grid-template-columns: minmax(0, 1fr) 280px;
   }
 
   .cs-guide__scroll {
-    padding: 0 2.5rem 3rem;
+    padding: 0 2rem 3rem;
+    width: 100%;
   }
 
   .cs-guide__hero {
-    padding: 2rem 1rem 2.5rem;
+    padding: 2rem 0 2.5rem;
+    width: 100%;
   }
 
   .cs-guide__title {
@@ -1998,7 +2010,7 @@
   }
 
   .cs-guide__desc {
-    max-width: 44rem;
+    max-width: none;
     font-size: 1.05rem;
   }
 
@@ -2009,7 +2021,9 @@
   }
 
   .cs-guide__content {
-    max-width: 54rem;
+    max-width: none;
+    width: 100%;
+    margin: 0;
   }
 
   .cs-guide__section-title {
@@ -2071,15 +2085,10 @@
   }
 
   .cs-guide__scroll {
-    padding: 0 3rem 3rem;
-  }
-
-  .cs-guide__content {
-    max-width: 62rem;
+    padding: 0 2.5rem 3rem;
   }
 
   .cs-guide__desc {
-    max-width: 50rem;
     font-size: 1.08rem;
   }
 

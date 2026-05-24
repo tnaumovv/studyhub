@@ -47,6 +47,35 @@ export default function App() {
     localStorage.setItem(SIDEBAR_KEY, String(sidebarOpen));
   }, [sidebarOpen]);
 
+  const isGuideFullscreen =
+    view === "study" && activeSubject?.id === CULTURAL_STUDIES_SUBJECT_ID;
+
+  useEffect(() => {
+    const html = document.documentElement;
+    if (isGuideFullscreen) {
+      html.classList.add("guide-fullscreen");
+    } else {
+      html.classList.remove("guide-fullscreen");
+    }
+    return () => html.classList.remove("guide-fullscreen");
+  }, [isGuideFullscreen]);
+
+  useEffect(() => {
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (!meta) return;
+    const fallback = "#0d9488";
+    const prev = meta.getAttribute("content") ?? fallback;
+    if (isGuideFullscreen) {
+      meta.setAttribute(
+        "content",
+        theme === "dark" ? "#0a0a12" : "#818cf8",
+      );
+    } else {
+      meta.setAttribute("content", fallback);
+    }
+    return () => meta.setAttribute("content", prev);
+  }, [isGuideFullscreen, theme]);
+
   const closeMobile = useCallback(() => setMobileOpen(false), []);
 
   const handleToggleSidebar = () => {
@@ -64,13 +93,12 @@ export default function App() {
   );
 
   const isGuideSubject = activeSubject?.id === CULTURAL_STUDIES_SUBJECT_ID;
-  const isGuideStudy = view === "study" && isGuideSubject;
 
   const shellClass = [
     "shell",
     sidebarOpen ? "shell--sidebar-open" : "shell--sidebar-closed",
     mobileOpen ? "shell--mobile-open" : "",
-    isGuideStudy ? "shell--guide" : "",
+    isGuideFullscreen ? "shell--guide" : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -119,7 +147,7 @@ export default function App() {
         className={[
           "shell__main",
           view === "study" ? "shell__main--study" : "",
-          isGuideStudy ? "shell__main--guide" : "",
+          isGuideFullscreen ? "shell__main--guide" : "",
         ]
           .filter(Boolean)
           .join(" ")}
